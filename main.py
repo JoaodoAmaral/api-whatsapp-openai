@@ -3,7 +3,7 @@ import openai
 import base64
 
 app = Flask(__name__)
-openai.api_key = "sua-chave-aqui"  # Coloque sua chave da OpenAI aqui
+openai.api_key = "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"
 
 @app.route('/')
 def index():
